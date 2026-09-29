@@ -1,0 +1,17 @@
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+motor>=3.3.1
+pydantic>=2.4.2
+pydantic-settings>=2.0.3
+pyjwt>=2.8.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.1
+python-multipart>=0.0.6
+numpy>=1.24.0
+scipy>=1.10.0
+librosa>=0.10.1
+pretty-midi>=0.2.10
+soundfile>=0.12.1
+requests>=2.31.0
+aiofiles>=23.2.1
+python-dotenv>=1.0.0

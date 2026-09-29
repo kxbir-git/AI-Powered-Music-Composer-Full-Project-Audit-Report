@@ -1,0 +1,53 @@
+"""Schemas package."""
+
+from app.schemas.auth import (
+    ForgotPasswordRequest,
+    LoginRequest,
+    RegisterRequest,
+    ResetPasswordRequest,
+    TokenResponse,
+    UpdateProfileRequest,
+    UserResponse,
+)
+from app.schemas.music import (
+    AssistantMessage,
+    AssistantResponse,
+    GenerateMusicRequest,
+    GenerateVariationRequest,
+    GenerationResponse,
+    GenerationStatus,
+    Genre,
+    Instrument,
+    Mood,
+    MusicAnalysisResponse,
+    MusicalKey,
+    ProjectResponse,
+    Scale,
+    TimeSignature,
+    UpdateProjectRequest,
+)
+
+__all__ = [
+    "RegisterRequest",
+    "LoginRequest",
+    "ForgotPasswordRequest",
+    "ResetPasswordRequest",
+    "TokenResponse",
+    "UserResponse",
+    "UpdateProfileRequest",
+    "GenerateMusicRequest",
+    "GenerateVariationRequest",
+    "GenerationResponse",
+    "GenerationStatus",
+    "Genre",
+    "Mood",
+    "Instrument",
+    "MusicalKey",
+    "Scale",
+    "TimeSignature",
+    "ProjectResponse",
+    "UpdateProjectRequest",
+    "MusicAnalysisResponse",
+    "AssistantMessage",
+    "AssistantResponse",
+]
